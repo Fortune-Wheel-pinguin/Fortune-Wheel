@@ -1,0 +1,17 @@
+/* solo importaciones */
+
+@import 'reset.css';
+@import './variables.css';
+@import './components/main_components.css';
+/*view port*/
+/*
+h1 {
+    background-color: red;
+    height: 100vh; 
+    width: 50vw;
+}
+*/
+
+body {
+    background-color: var(--background_color);
+}
