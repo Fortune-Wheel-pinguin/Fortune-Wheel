@@ -1,0 +1,21 @@
+body {
+  background-image: url(../../../img/fondodeahtNote.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.container {
+  background-image: url(../../../img/hojapapel\ 2.png);
+  width: 95%;
+  height: 98vh;
+  background-repeat: no-repeat;
+}
+.pluma {
+  background-image: url(../../../img/plumafinal\ 1.png);
+  width: 65%;
+  height: 55vh;
+  position: absolute;
+  left: 20%;
+  top: 52%;
+  background-repeat: no-repeat;
+}
