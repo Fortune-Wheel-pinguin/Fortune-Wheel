@@ -1,11 +1,25 @@
 .poup {
-    
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-image: url("../../../img/hojaRota.png");
-    display: flex;
-    justify-content: center;
-    class
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../img/hojaRota.png");
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  position: relative;
+  width: 70%;
+}
+.input-buton {
+  position: absolute;
+  bottom: 5%;
+  margin: 0 5% 0 5%;
+}
+.container-popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prueba {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
 }
