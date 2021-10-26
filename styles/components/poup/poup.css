@@ -1,0 +1,11 @@
+.poup {
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url("../../../img/hojaRota.png");
+    display: flex;
+    justify-content: center;
+    class
+}
