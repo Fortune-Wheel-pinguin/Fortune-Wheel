@@ -16,6 +16,6 @@ body {
   background-color: var(--background_color);
   background-image: url("../img/fondodeahtNote.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background-position: top;
+  overflow: hidden;
 }

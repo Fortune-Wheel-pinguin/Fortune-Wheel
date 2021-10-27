@@ -1,21 +1,12 @@
-.body {
-}
-.container button {
-  width: 100px;
-  height: 40px;
-}
-.container h1 {
-  background-color: rgb(246, 175, 175);
-}
-.button-container {
-  display: flex;
-  flex-direction: column;
+.containerIndex {
   justify-content: center;
+  display: flex;
+}
+.containerButton {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 37%;
+  flex-direction: column;
   align-items: center;
-}
-.button1 {
-  margin-top: 25%;
-}
-.button2 {
-  margin-top: 45%;
 }
