@@ -1,21 +1,23 @@
-body {
-  background-image: url(../../../img/fondodeahtNote.png);
-  background-repeat: no-repeat;
-  position: relative;
+.containerDN {
+  display: flex;
+  justify-content: center;
 }
 
-.container {
+.hoja {
   background-image: url(../../../img/hojapapel\ 2.png);
   width: 95%;
   height: 98vh;
   background-repeat: no-repeat;
+  background-position: top;
 }
 .pluma {
   background-image: url(../../../img/plumafinal\ 1.png);
-  width: 65%;
+  width: 270px;
   height: 55vh;
-  position: absolute;
-  left: 20%;
-  top: 52%;
   background-repeat: no-repeat;
+  background-size: 100%;
+}
+.flexPluma {
+  display: flex;
+  justify-content: center;
 }
