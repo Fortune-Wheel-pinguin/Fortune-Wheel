@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class ="button-container">
-        <button class ="button1">Join Players</button>
-        <button class ="button2">Prueba tu suerte</button>
+    <div class="container-fondo">
+        <div class="containerIndex">
+            <article class="containerButton">
+              <button class="button">Join Players</button>
+              <button class="buttonFooter">Prueba tu suerte</button>
+            </article>
+          </div>
         <audio >
             <source class ="mysong" src="audio/Death Note - L's Theme - Version A (Cut & Looped for an Hour).mp3" type="audio/ogg">
           </audio>
-          <img class ="music-icon">
+          <img class ="music-icon"><button>img</button>
         </div>
     </div>
     <script>
@@ -25,8 +27,7 @@
         icon.onclick=function(){
             if(mysong.paused){
                 mysong.play();
-                icon.src="pause.png";  //means if ny song is paused, ill have to play it with the play method()
-                                        //and of the image it'll display in paused is pause.png
+                icon.src="pause.png";  
             }else{
                 mysong.pause();
                 icon.src ="play.png";
@@ -38,3 +39,4 @@
 </body>
 
 </html>
+  
