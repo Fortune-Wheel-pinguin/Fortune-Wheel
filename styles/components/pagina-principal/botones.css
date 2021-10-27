@@ -1,0 +1,10 @@
+
+.button {
+  height: 5%;
+  width: 40%;
+}
+.buttonFooter {
+    position: absolute;
+    bottom: 10%;
+  }
+  
