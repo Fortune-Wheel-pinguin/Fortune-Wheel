@@ -1,5 +1,6 @@
 .poup {
-  background-position: center;
+  margin-top: 220px;
+  background-position: top;
   background-repeat: no-repeat;
   background-image: url("../../../img/hojaRota.png");
   display: flex;
@@ -15,7 +16,7 @@
   border: 0px;
 }
 .container-popup {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -32,4 +33,13 @@
   color: red;
   background: transparent;
   border: none;
+}
+
+.cruzcerrar{
+  display: flex;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 240px;
 }
