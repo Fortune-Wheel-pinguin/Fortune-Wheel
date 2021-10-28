@@ -3,6 +3,17 @@
   width: 40%;
 }
 .buttonFooter {
+<<<<<<< HEAD
   position: absolute;
   bottom: 10%;
 }
+=======
+    position: absolute;
+    bottom: 10%;
+  }
+  .volvermenucruz{
+    width: 30px;
+    height: 30px;
+    display: flex;
+  }
+>>>>>>> a78ba164acd4cd1d11014326485c960da51d5ca2
