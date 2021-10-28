@@ -20,7 +20,7 @@ function mostrarnombres(){
     let localizacion = document.getElementById("impresionarray");
     let todolist = ""
     Names.forEach(elemento => {
-            todolist += `<li>${elemento}</li>`
+            todolist += `<li>${elemento} <button onclick = "borrarVictimas(this)" class = "delete" id = "borrar">X</button> </li>`
     });
     localizacion.innerHTML = todolist;
 }

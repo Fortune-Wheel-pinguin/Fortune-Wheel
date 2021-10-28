@@ -13,24 +13,23 @@
   bottom: 5%;
   margin: 0 5% 0 5%;
   border: 0px;
-
 }
 .container-popup {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.prueba {
-  width: 100px;
-  height: 100px;
-  background-color: crimson;
-}
-.poup li{
+
+.poup li {
   color: black;
 }
-.poup ul{
+.poup ul {
   margin-top: 145px;
   margin-right: 150px;
   font-size: 25px;
-
+}
+.delete {
+  color: red;
+  background: transparent;
+  border: none;
 }
