@@ -14,28 +14,13 @@
               <button class="button">Join Players</button>
               <button class="buttonFooter">Prueba tu suerte</button>
             </article>
-          </div>
-        <audio >
-            <source class ="mysong" src="audio/Death Note - L's Theme - Version A (Cut & Looped for an Hour).mp3" type="audio/ogg">
-          </audio>
-          <img class ="music-icon"><button>img</button>
+            <audio autoplay loop hidden>
+              <source src="audio/audio.wav" type="mp3/wav">
+            </audio>
+        
         </div>
     </div>
-    <script>
-        let mysong=document.getElementById("mysong")
-        let icon=document.getElementById("music-icon")
-        icon.onclick=function(){
-            if(mysong.paused){
-                mysong.play();
-                icon.src="pause.png";  
-            }else{
-                mysong.pause();
-                icon.src ="play.png";
-            }
-        }
-    </script>
-
-
+    <script src ="js/main.js"></script>
 </body>
 
 </html>
