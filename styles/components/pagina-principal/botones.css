@@ -6,11 +6,3 @@
   position: absolute;
   bottom: 10%;
 }
-.music-icon {
-  width: 40px;
-  bottom: 40%;
-  left: 50%;
-  position: absolute;
-  z-index: 1;
-  background-color: azure;
-}

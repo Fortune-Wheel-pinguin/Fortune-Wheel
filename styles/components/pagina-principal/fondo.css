@@ -2,6 +2,9 @@
   justify-content: center;
   display: flex;
 }
+.body {
+  width: 400px;
+}
 .containerButton {
   display: flex;
   justify-content: center;
