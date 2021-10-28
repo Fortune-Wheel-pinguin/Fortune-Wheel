@@ -24,4 +24,11 @@ function mostrarnombres(){
     });
     localizacion.innerHTML = todolist;
 }
-
+function abrirpopup(){
+    document.getElementById("popup").style.display = "flex"
+    document.getElementById("inicio").style.display = "none"
+}
+function cerrarpopup(){
+    document.getElementById("popup").style.display = "none"
+    document.getElementById("inicio").style.display = "flex"
+}
