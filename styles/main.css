@@ -2,6 +2,7 @@
 
 @import "reset.css";
 @import "./variables.css";
+@import "./media.css";
 @import "./components/main_components.css";
 /*view port*/
 /*
@@ -13,9 +14,10 @@ h1 {
 */
 
 body {
-  background-color: var(--background_color);
   background-image: url("../img/fondodeahtNote.png");
-  background-repeat: no-repeat;
   background-position: top;
+  background-repeat: no-repeat;
+  background-color: var(--background_color);
   overflow: hidden;
+  width: 100%;
 }
