@@ -3,5 +3,7 @@ function borrarVictimas(elementoThis) {
   let nombreVictima = elementoThis.previousSibling;
   let elementoLi = nombreVictima.parentElement;
   elementoLi.remove();
+
+  
   //console.log(elementoLi);
 }
