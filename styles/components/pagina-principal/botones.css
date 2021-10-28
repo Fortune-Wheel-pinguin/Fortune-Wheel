@@ -7,4 +7,8 @@
     position: absolute;
     bottom: 10%;
   }
-  
+  .volvermenucruz{
+    width: 30px;
+    height: 30px;
+    display: flex;
+  }
