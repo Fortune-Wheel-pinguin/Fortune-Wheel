@@ -24,4 +24,9 @@ function mostrarnombres(){
     });
     localizacion.innerHTML = todolist;
 }
-
+function abrirpopup(){
+    document.getElementById("popup").style.display = "flex"
+}
+function cerrarpopup(){
+    document.getElementById("popup").style.display = "none"
+}
